@@ -26,5 +26,5 @@ To use this project, simply open the `index.html` file in your web browser. You 
 
 ## Credits
 
-This project was inspired by [FreeCodeCamp's Responsive Web Design Projects](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage).
+This project was inspired by [FreeCodeCamp's Responsive Web Design Projects](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage). 
 
