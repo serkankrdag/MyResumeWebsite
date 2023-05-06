@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 300;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h4 {
+    color: #333;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+h5 {
+    color: #3590d2;
+}
+
+h6 {
+    color: #666;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.cantainer {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(0, 0, 0, 1);
+    border-left: 50px solid #fff;
+    border-right: 50px solid #fff;
+}
+
+.cantainer .top {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.cantainer .top .imgBx {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cantainer .top .imgBx .box {
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.cantainer .top .imgBx .box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cantainer .top .profileText {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.cantainer .top .profileText h3 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+
+.cantainer .top .profileText h3 span {
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    top: -10px;
+}
+
+.cantainer .contentBox {
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+
+.cantainer .contentBox h3 {
+    border-left: 4px solid #ff8bb3;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.cantainer .contentBox ul {
+    position: relative;
+    margin: 10px 0;
+}
+
+.cantainer .contentBox ul li {
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1em;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+}
+
+.cantainer .contentBox ul li ion-icon {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #3590d2;
+}
+
+.cantainer .contentBox ul.education li {
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+.cantainer .contentBox ul.language li  {
+    flex-direction: column;
+}
+
+.cantainer .contentBox ul.language li span  {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cantainer .contentBox ul.language .percent  {
+    position: relative;
+    width: 100%;
+    background: #e3e3e3;
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.cantainer .contentBox ul.language .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #3590d2;
+}
+
+.cantainer .contentBox ul.interest  {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cantainer .contentBox ul.interest li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.cantainer .contentBox ul.interest li .icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #3590d2;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantainer .contentBox ul.interest li .icon ion-icon {
+    color: #fff;
+    margin-right: 0;
+}
+
+.rightSide {
+    padding-left: 40px;
+}
+
+.cantainer .contentBox .about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.cantainer .contentBox .about .box .year_company {
+    min-width: 150px;
+    margin-bottom: 10px;
+}
+
+.cantainer .contentBox .about .box .year_company h5 {
+    color: #333;
+    font-weight: 600;
+}
+
+.cantainer .contentBox .about .box .year_company h5:nth-child(1) {
+    color: #3590d2;
+}
+
+.cantainer .contentBox .about .box .text h4 {
+    color: #3590d2;
+    font-size: 16px;
+    margin: 0;
+}
+
+.cantainer .contentBox .about.skills .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantainer .contentBox .about.skills .box h4 {
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.cantainer .contentBox .about.skills .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #e3e3e3;
+}
+
+.cantainer .contentBox .about.skills .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #3590d2;
+}
